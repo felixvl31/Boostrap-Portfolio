@@ -52,6 +52,7 @@ Header{
 */
 .col-sm img{
     position: relative !important;
+    vertical-align: middle !important;
 }
 .label{
     position: absolute;
