@@ -5,45 +5,72 @@
         <title>Felix Villalobos</title>
         <link rel="shortcut icon" href="Assets/Images/favicon.ico" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link rel="stylesheet" href="Assets/CSS/style.css">
     </head>
 
     <body>
         <div>
 
-            <header >
-                <div>
-                    <h1>
-                        Felix Villalobos
-                    </h1>
-                    <nav>
-                        <ul>
-                            <li><a href="contact.html"><i class="fa fa-envelope-o" aria-hidden="true"></i>     Contact     </a></li>
-                            <li><a href="portfolio.html"><i class="fa fa-folder-open-o" aria-hidden="true"></i>   Portfolio   </a></li>
-                            <li><a href="index.html"><i class="fa fa-address-card-o" aria-hidden="true"></i>       About       </a></li>
-                        </ul>
-                    </nav>
+            <header>
+                <div class="container MainNav">
+
+                    <div class="row">
+                        <h1 class="col-4 bg-info text-white ColorBackground">
+                            Felix Villalobos
+                        </h1>
+                        <h1 class="col-4">
+                            <!-- Space -->
+                        </h1>
+                        <nav class="col-4">
+                            <ul class="nav">
+                                    <li class="nav-item"><a class="nav-link text-info ColorText" href="index.html"><i class="fa fa-address-card-o" aria-hidden="true"></i>       About       </a></li>
+                                    <li class="nav-item"><a class="nav-link text-info ColorText" href="portfolio.html"><i class="fa fa-folder-open-o" aria-hidden="true"></i>   Portfolio   </a></li>
+                                    <li class="nav-item"><a class="nav-link text-info ColorText" href="contact.html"><i class="fa fa-envelope-o" aria-hidden="true"></i>     Contact     </a></li>
+                            </ul>
+                        </nav>
+                    </div>
+
                 </div>
             </header>
 
-            <section>
-                <div>
-                    <h2>Portfolio</h2>
+            <section class="Content">
+                <div class="container border bg-light">
+                    <h2 class="text-info align-bottom ColorText">
+                        Portfolio
+                    </h2>
+                    <hr>
 
-                    <div>
-                        <img src="Assets/Images/Portfolio-1.png" alt="Hangman">
-                        <img src="Assets/Images/Portfolio-2.png" alt="RPG Game">
-                        <img src="Assets/Images/Portfolio-3.png" alt="Trivia Games">
-                        <img src="Assets/Images/Portfolio-4.png" alt="Rutgers Info Widget">
-                        <img src="Assets/Images/Portfolio-5.png" alt="Rock Paper Scissors">
-
-                        <div>
-                            <a class="box">Hangman</a>
-                            <a class="box">RPG Game</a>
-                            <a class="box">Trivia Games</a>
-                            <a class="box">Rutgers Info Widget</a>
-                            <a class="box">Rock Paper Scissors</a>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm">
+                                <img class="rounded" src="Assets/Images/Portfolio-1.png" alt="Hangman">
+                                <a class="label">Hangman</a>
+                            </div>
+                            <div class="col-sm">
+                                <img class="rounded" src="Assets/Images/Portfolio-2.png" alt="RPG Game">
+                                <a class="label">RPG Game</a>
+                            </div>
                         </div>
-
+                        <br>
+                        <div class="row">
+                            <div class="col-sm">
+                                <img class="rounded" src="Assets/Images/Portfolio-3.png" alt="Trivia Games">
+                                <a class="label">Trivia Games</a>
+                            </div>
+                            <div class="col-sm">
+                                <img class="rounded" src="Assets/Images/Portfolio-4.png" alt="Rutgers Info Widget">
+                                <a class="label">Rutgers Info Widget</a>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="col-sm">
+                                <img class="rounded" src="Assets/Images/Portfolio-5.png" alt="Rock Paper Scissors">
+                                <a class="label">Rock Paper Scissors</a>
+                            </div>         
+                        </div>
+                        <br>
                     </div>
         
                 </div>
@@ -52,8 +79,10 @@
 
         </div>
         
-        <footer>
-            <a>Copyright &copy;</a>
+        <footer class="fixed-bottom">
+            <div class="container ">
+                <p class="text-center text-white bg-dark">Copyright &copy;</p>
+            </div>
         </footer>
         
     </body>

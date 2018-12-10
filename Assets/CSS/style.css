@@ -1,0 +1,67 @@
+/*
+  ========================================
+  Color
+  ========================================
+*/ 
+.ColorBackground{
+    background-color: #4aaaa5 !important;
+}
+.ColorText{
+    color: #4aaaa5 !important;
+}
+
+/*
+  ========================================
+  Header
+  ========================================
+*/ 
+Header{
+    border-bottom: 3px solid #cccccc !important;
+}
+.MainNav{
+    min-width: 580px !important;
+}
+
+/*
+  ========================================
+  Main Content
+  ========================================
+*/
+.Content {
+    background-image : url("../Images/pattern.png") !important;
+    background-repeat : repeat !important;
+    min-height : calc(100vh - 60px) !important;
+    padding:20px 0 40px 0 !important;
+    min-width: 580px !important;
+    }
+
+/*
+  ========================================
+  Portfolio
+  ========================================
+*/
+.col-sm img{
+    position: relative !important;
+}
+.label{
+    position: absolute;
+    bottom: 10px;
+    width: 275px;
+    left:15px;
+    padding: 10px;
+    font-weight: 600 !important;
+    font-size: 20px !important;
+    color: #ffffff !important;
+    text-align: center;
+    background: #4aaaa5;
+}
+
+/*
+  ========================================
+  Footer
+  ========================================
+*/
+Footer{
+    border-top: 3px solid #4aaaa5 !important;
+    background-color:#343a40 !important;
+}
