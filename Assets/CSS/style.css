@@ -18,9 +18,6 @@
 Header{
     border-bottom: 3px solid #cccccc !important;
 }
-.MainNav{
-    min-width: 580px !important;
-}
 
 /*
   ========================================
@@ -30,10 +27,23 @@ Header{
 .Content {
     background-image : url("../Images/pattern.png") !important;
     background-repeat : repeat !important;
-    min-height : calc(100vh - 60px) !important;
+    min-height : calc(100vh - 100px) !important;
     padding:20px 0 40px 0 !important;
-    min-width: 580px !important;
+    margin-bottom:20px;
     }
+
+    /*
+  ========================================
+  Portfolio
+  ========================================
+*/
+.BioImage{
+    margin-right:20px;
+}
+.BioText{
+    padding:0 13px 13px 0;
+    text-align:justify;
+}
 
 /*
   ========================================
