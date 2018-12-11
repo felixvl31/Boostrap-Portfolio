@@ -39,7 +39,6 @@ Header{
 */
 .BioText{
     padding:0 13px 13px 0;
-    text-align:justify;
 }
 
 /*
@@ -53,7 +52,7 @@ Header{
 }
 .label{
     position: absolute;
-    bottom: 10px;
+    bottom: 25px;
     width: 275px;
     left:15px;
     padding: 10px;
